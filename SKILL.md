@@ -16,7 +16,7 @@ Turn cooking links, screenshots, videos, or confirmed menus into reproducible Ch
 3. **Never invent quantities.** If grams, counts, ratios, time, temperature, fire level, or calories are absent, write `原视频未标注` / `未给克数` / `适量`, rather than supplying a plausible number.
 4. **Create structured data before image generation.** Save one recipe JSON per dish using `templates/recipe.schema.json` as the target shape.
 5. **Generate one card per confirmed dish.** A multi-dish video requires multiple recipes/cards unless the user explicitly asks for one menu overview.
-6. **Use the golden scrapbook layout.** Read `references/golden-layout.md` and, when the runtime supports reference-image editing, pass `assets/golden-reference-day1.png` as the style/layout reference.
+6. **Use the golden scrapbook layout.** Read `references/golden-layout.md` and, when the runtime supports reference-image editing, pass `assets/golden-reference.png` as the style/layout reference.
 7. **Use a capable image model.** Prefer GPT Image 2 / image2 or another model proven to render Chinese. Do not silently replace the requested generative artwork with PIL, SVG, HTML, screenshots, or a generic template.
 8. **Review the generated pixels.** Run multimodal visual QA against the exact recipe JSON and the golden-layout checklist. Regenerate on any critical content error, fake quantity, unreadable Chinese, clipping, ordinary-poster drift, or layout failure.
 9. **Deliver the actual file.** Verify the final PNG exists, copy it to the user-facing output folder, and return/embed the image—not merely a path description or “done”.

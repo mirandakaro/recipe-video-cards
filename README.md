@@ -31,8 +31,8 @@
 
 <table>
 <tr>
-<td align="center" width="50%"><img src="docs/golden-reference-day1.jpg" width="100%"><br><sub>Golden 版式参考：橙子冻可可酸奶吐司配橙香咖啡</sub></td>
-<td align="center" width="50%"><img src="docs/example-output-mooncake.jpg" width="100%"><br><sub>完整流程成品：咸蛋黄麻薯巴斯克月饼（热量标「作者口径」）</sub></td>
+<td align="center" width="50%"><img src="docs/example-output-mooncake.jpg" width="100%"><br><sub>咸蛋黄麻薯巴斯克月饼 · 约 160 kcal/个<br>原作者：小红书 @徐也没</sub></td>
+<td align="center" width="50%"><img src="docs/example-basque-chicken.jpg" width="100%"><br><sub>抗炎低卡巴斯克炖鸡 · 配烤馒头片<br>原作者：小红书 @发福小勇（减脂版）</sub></td>
 </tr>
 </table>
 
@@ -60,7 +60,7 @@ git clone https://github.com/mirandakaro/recipe-video-cards.git .claude/skills/r
 - `references/golden-layout.md`
 - `references/evidence-pipeline.md`
 - `references/qa-checklist.md`
-- `assets/golden-reference-day1.png`
+- `assets/golden-reference.png`
 
 只能上传一个文件时，优先上传 `SKILL.md`。
 
@@ -130,8 +130,9 @@ recipe-video-cards/
 │   ├── recipe.schema.json           结构化食谱 JSON Schema
 │   └── image-prompt-template.md     生图提示词模板
 ├── assets/
-│   ├── golden-reference-day1.png    版式参考图（生图时作为参考图传入）
-│   └── example-output-mooncake.png  完整流程示例成品
+│   ├── golden-reference.png         版式参考图（生图时作为参考图传入）
+│   ├── example-output-mooncake.png  示例成品：咸蛋黄麻薯巴斯克月饼
+│   └── example-output-basque-chicken.png 示例成品：抗炎低卡巴斯克炖鸡
 ├── evals/evals.json                 验证 Agent 是否真正执行的测试题
 └── docs/                            README 用的预览图和宣传片
 ```
@@ -167,6 +168,15 @@ recipe-video-cards/
 - 请尊重原创作者：生成的卡片仅供个人学习与做饭参考；二次发布前请取得原作者授权，并注明出处。
 - 使用平台登录态抓取内容时，请遵守对应平台的服务条款。
 - 热量与营养数据仅供参考，不构成营养或医疗建议。
+
+## 🙏 示例版权说明
+
+仓库里的两张示例卡，是用本 skill 按原视频/笔记整理的复刻图解，食谱内容版权归原作者所有，仅作功能演示：
+
+- **咸蛋黄麻薯巴斯克月饼**：小红书 [@徐也没](https://www.xiaohongshu.com/explore/6aa52d76000000002901b724)，笔记《它只有160kcal啊🥹今年月饼届顶流出现了！！》
+- **抗炎低卡巴斯克炖鸡**：小红书 @发福小勇（减脂版）
+
+原作者如不希望在此展示，请提 Issue，会第一时间撤下。
 
 ## 📄 License
 

@@ -41,4 +41,4 @@ Reject and regenerate if the output is any of the following:
 
 ## Reference asset
 
-When supported, use `assets/golden-reference-day1.png` as an image-edit/style reference. Preserve its design grammar, not its original dish name or text.
+When supported, use `assets/golden-reference.png` as an image-edit/style reference. Preserve its design grammar, not its original dish name or text.
