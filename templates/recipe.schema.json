@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence-grounded recipe card",
+  "type": "object",
+  "required": ["title", "source", "yield", "ingredients", "steps", "evidence", "uncertainties"],
+  "properties": {
+    "title": {"type": "string"},
+    "source": {
+      "type": "object",
+      "properties": {
+        "url": {"type": "string"},
+        "platform": {"type": "string"},
+        "creator": {"type": "string"},
+        "post_id": {"type": "string"}
+      }
+    },
+    "yield": {"type": "string"},
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["group", "items"],
+        "properties": {
+          "group": {"type": "string"},
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "amount", "evidence_level"],
+              "properties": {
+                "name": {"type": "string"},
+                "amount": {"type": "string"},
+                "evidence_level": {"type": "string"},
+                "note": {"type": "string"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["order", "instruction", "evidence_level"],
+        "properties": {
+          "order": {"type": "integer"},
+          "instruction": {"type": "string"},
+          "time": {"type": "string"},
+          "temperature": {"type": "string"},
+          "heat": {"type": "string"},
+          "doneness_cue": {"type": "string"},
+          "evidence_level": {"type": "string"}
+        }
+      }
+    },
+    "calories": {
+      "type": "object",
+      "properties": {
+        "display": {"type": "string"},
+        "basis": {"type": "string"}
+      }
+    },
+    "tips": {"type": "array", "items": {"type": "string"}},
+    "evidence": {"type": "array", "items": {"type": "string"}},
+    "uncertainties": {"type": "array", "items": {"type": "string"}}
+  }
+}

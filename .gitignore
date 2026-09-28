@@ -1,0 +1,5 @@
+.DS_Store
+recipe-output/
+*.skill
+*.zip
+node_modules/
