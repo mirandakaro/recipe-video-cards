@@ -36,6 +36,16 @@
 </tr>
 </table>
 
+宣传片里拆的三个真实视频，成卡如下：
+
+<table>
+<tr>
+<td align="center" width="33%"><img src="docs/example-pineapple-ribs.jpg" width="100%"><br><sub>菠萝泡椒烤肋排 · 3–4 人聚会硬菜<br>原作者：小红书 <a href="https://www.xiaohongshu.com/explore/6a0ad84700000000370354fa">@文森特别饿</a></sub></td>
+<td align="center" width="33%"><img src="docs/example-sesame-banana.jpg" width="100%"><br><sub>黑芝麻香蕉藜麦煎饼 · 无额外加糖<br>原作者：抖音 <a href="https://www.douyin.com/video/7614104216894135025">@Mickey</a></sub></td>
+<td align="center" width="33%"><img src="docs/example-kumquat-pork.jpg" width="100%"><br><sub>金桔文火肉排 · 文火焖 40 分钟<br>原作者：抖音 <a href="https://www.douyin.com/video/7649281904956493107">@老饭骨</a></sub></td>
+</tr>
+</table>
+
 ## 📦 安装
 
 ### Hermes Agent
@@ -171,16 +181,16 @@ recipe-video-cards/
 
 ## 🙏 示例版权说明
 
-仓库里的两张示例卡，是用本 skill 按原视频/笔记整理的复刻图解，食谱内容版权归原作者所有，仅作功能演示：
+仓库里的示例卡，是用本 skill 按原视频/笔记整理的复刻图解，食谱内容版权归原作者所有，仅作功能演示：
 
 - **咸蛋黄麻薯巴斯克月饼**：小红书 [@徐也没](https://www.xiaohongshu.com/explore/6aa52d76000000002901b724)，笔记《它只有160kcal啊🥹今年月饼届顶流出现了！！》
 - **抗炎低卡巴斯克炖鸡**：小红书 [@发福小勇（减脂版）](https://www.xiaohongshu.com/explore/6a104df50000000036018c74)，巴斯克炖鸡视频笔记
 
-宣传片（`docs/promo-720p.mp4`）用真实视频演示了拆解流程，片中出现的原视频片段、字幕与画面归原作者所有，仅作功能演示：
+宣传片（`docs/promo-720p.mp4`）和上面三张卡用真实视频演示了拆解流程，片中出现的原视频片段、字幕与画面归原作者所有，仅作功能演示：
 
-- **菠萝泡椒烤肋排**（全片主线，抽帧 / 字幕 / 屏幕配料 / 步骤片段）：小红书 @文森特别饿，《酥烂脱骨，酸甜辣超过瘾的菠萝烤肋排！🔥》
-- **黑芝麻香蕉煎饼**：抖音 @Mickey，《是真的比烤吐司还要好吃，黑芝麻和香蕉只有0次和无数次》
-- **金桔文火肉排**：抖音 @老饭骨，《膨胀了！能学到普京爱吃的同款菜！金桔文火肉排！》
+- **菠萝泡椒烤肋排**（全片主线，抽帧 / 字幕 / 屏幕配料 / 步骤片段）：小红书 [@文森特别饿](https://www.xiaohongshu.com/explore/6a0ad84700000000370354fa)，《酥烂脱骨，酸甜辣超过瘾的菠萝烤肋排！🔥》
+- **黑芝麻香蕉煎饼**：抖音 [@Mickey](https://www.douyin.com/video/7614104216894135025)，《是真的比烤吐司还要好吃，黑芝麻和香蕉只有0次和无数次》
+- **金桔文火肉排**：抖音 [@老饭骨](https://www.douyin.com/video/7649281904956493107)，《膨胀了！能学到普京爱吃的同款菜！金桔文火肉排！》
 
 原作者如不希望在此展示，请提 Issue，会第一时间撤下。
 
